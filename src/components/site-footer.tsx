@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getDirectory } from "@/lib/data";
-import { BRAND } from "@/lib/brand";
+import { AUTHOR, BRAND, REPO_URL } from "@/lib/brand";
+import { GithubIcon } from "@/components/icons";
 
 export function SiteFooter() {
   const { totals } = getDirectory();
@@ -11,8 +12,8 @@ export function SiteFooter() {
           <p className="font-display text-lg font-semibold text-ink">{BRAND.name}</p>
           <p className="mt-3 max-w-md text-sm leading-relaxed text-ink-soft">
             {BRAND.tagline} — a friendlier window into {totals.schools.toLocaleString("en-IN")}{" "}
-            schools across Pune. Search by area, compare what schools actually offer, and
-            keep the phone numbers you need in one place.
+            schools across Pune. Search by area, compare what schools actually offer, and keep the
+            phone numbers you need in one place.
           </p>
         </div>
 
@@ -29,7 +30,7 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow">Data sources</p>
           <ul className="mt-3 space-y-2 text-sm text-ink-soft">
-            <li>UDISE school directory &amp; facilities, Pune blocks</li>
+            <li>UDISE school directory &amp; facilities, Pune blocks 272514–272518</li>
             <li>Pune Municipal Corporation school contact sheet</li>
             <li>Area coordinates: OpenStreetMap via Nominatim</li>
           </ul>
@@ -40,14 +41,40 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-line">
-        <div className="shell flex flex-col gap-2 py-5 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>
+        <div className="shell flex flex-col gap-4 py-5 text-xs text-muted lg:flex-row lg:items-center lg:justify-between">
+          <p className="max-w-xl">
             School names, enrolment and facilities are as reported in the source records. Confirm
             details with the school before applying.
           </p>
-          <p>
-            {BRAND.name} · {new Date().getFullYear()}
-          </p>
+
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <span>
+              Built by{" "}
+              <a
+                href={AUTHOR.url}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="link-underline font-medium text-ink-soft transition-colors hover:text-teal-deep"
+              >
+                {AUTHOR.name}
+              </a>
+            </span>
+            <span aria-hidden className="text-line-strong">·</span>
+            <a
+              href={REPO_URL}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex items-center gap-1.5 transition-colors hover:text-ink"
+              aria-label="Source code on GitHub"
+            >
+              <GithubIcon className="size-3.5" />
+              Source on GitHub
+            </a>
+            <span aria-hidden className="text-line-strong">·</span>
+            <span className="tnum">
+              {BRAND.name} {new Date().getFullYear()}
+            </span>
+          </div>
         </div>
       </div>
     </footer>
