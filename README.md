@@ -30,21 +30,6 @@ pnpm typecheck             # TypeScript check
 
 No environment variables, API keys or database are needed.
 
-## Deploying
-
-### Vercel
-
-Import the repository and deploy — the Next.js preset is detected automatically.
-Build command `pnpm build`, no environment variables required.
-
-### Cloudflare
-
-The app reads its data from `data/` at request time, so it needs a **Node-compatible
-runtime**, not the Edge runtime. Use OpenNext's Cloudflare adapter
-(`@opennextjs/cloudflare`) with the `nodejs_compat` compatibility flag.
-`next.config.ts` already declares `outputFileTracingIncludes`, which makes sure the
-`data/` folder is bundled with the server output.
-
 ## Data
 
 School names, class-wise enrolment, facilities and contact details come from the UDISE
