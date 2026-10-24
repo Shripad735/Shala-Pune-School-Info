@@ -8,6 +8,11 @@ out/
 build/
 dist/
 
+# Cloudflare / OpenNext build output
+.open-next/
+.wrangler/
+.dev.vars
+
 # TypeScript
 *.tsbuildinfo
 

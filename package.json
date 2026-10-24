@@ -15,6 +15,7 @@
     "build": "next build",
     "start": "next start",
     "data": "node scripts/generate-data.mjs",
+    "pages:build": "next-on-pages",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
@@ -24,7 +25,8 @@
   "dependencies": {
     "next": "15.5.4",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "styled-jsx": "5.1.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.1.13",
