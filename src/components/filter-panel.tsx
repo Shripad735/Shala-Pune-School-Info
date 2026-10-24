@@ -65,12 +65,12 @@ function FilterControls({
   state,
   facets,
   zones,
-  resultCount,
+  resultCountLabel,
 }: {
   state: FilterState;
   facets: Directory["facets"];
   zones: { name: string }[];
-  resultCount: number;
+  resultCountLabel: string;
 }) {
   const router = useRouter();
   const uid = useId();
@@ -270,7 +270,7 @@ function FilterControls({
       </div>
 
       <p className="text-[0.72rem] leading-relaxed text-muted">
-        {resultCount.toLocaleString("en-IN")} schools match this combination.
+        {resultCountLabel} schools match this combination.
       </p>
     </div>
   );
@@ -280,7 +280,7 @@ export function FilterPanel(props: {
   state: FilterState;
   facets: Directory["facets"];
   zones: { name: string }[];
-  resultCount: number;
+  resultCountLabel: string;
 }) {
   const activeCount = activeCountOf(props.state);
 

@@ -83,7 +83,12 @@ export default async function SchoolsPage({
       </div>
 
       <div className="mt-8 grid gap-8 lg:grid-cols-[17.5rem_minmax(0,1fr)]">
-        <FilterPanel state={state} facets={facets} zones={zones} resultCount={total} />
+        <FilterPanel
+          state={state}
+          facets={facets}
+          zones={zones}
+          resultCountLabel={formatNumber(total)}
+        />
 
         <div>
           {activeChips.length > 0 ? (
