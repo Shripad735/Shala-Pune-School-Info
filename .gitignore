@@ -8,6 +8,9 @@ out/
 build/
 dist/
 
+# Cloudflare leftovers (local only)
+.wrangler/
+
 # Vercel
 .vercel/
 
