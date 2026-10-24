@@ -1,7 +1,18 @@
+﻿# pnpm 10+ reads settings such as nodeLinker from this file only. pnpm 9 (which
+# Cloudflare's builder currently pins) rejects a workspace file that has no
+# `packages:` field, and ignores every other key. Declaring the root package and
+# listing the build allowances twice keeps 9, 10 and 11 all working.
+packages:
+  - "."
+
 nodeLinker: hoisted
 
-# These two ship native binaries with postinstall steps. Allowing them keeps
-# `pnpm install` from exiting non-zero, which would fail a CI/deploy build.
+# Packages with native binaries + postinstall steps. pnpm 10 reads
+# onlyBuiltDependencies, pnpm 11 reads allowBuilds. Without an entry for the
+# running version, that version exits non-zero on install.
+onlyBuiltDependencies:
+  - "@tailwindcss/oxide"
+  - sharp
 allowBuilds:
   "@tailwindcss/oxide": true
   sharp: true
