@@ -1,7 +1,7 @@
-allowBuilds:
-  '@tailwindcss/oxide': set this to true or false
-  sharp: set this to true or false
 nodeLinker: hoisted
-onlyBuiltDependencies:
-  - "@tailwindcss/oxide"
-  - sharp
+
+# These two ship native binaries with postinstall steps. Allowing them keeps
+# `pnpm install` from exiting non-zero, which would fail a CI/deploy build.
+allowBuilds:
+  "@tailwindcss/oxide": true
+  sharp: true
