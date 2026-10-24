@@ -9,9 +9,12 @@
     "url": "https://github.com/Shripad735/Shala-Pune-School-Info.git"
   },
   "scripts": {
+    "predev": "node scripts/generate-data.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/generate-data.mjs",
     "build": "next build",
     "start": "next start",
+    "data": "node scripts/generate-data.mjs",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },

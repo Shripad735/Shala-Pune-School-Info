@@ -1,5 +1,4 @@
-import { readFileSync } from "node:fs";
-import path from "node:path";
+import SOURCES from "@/generated/sources.json";
 
 const rawCache = new Map<string, string[][]>();
 
@@ -69,13 +68,27 @@ export function parseCsv(text: string): string[][] {
   return rows.filter((r) => r.length > 1 || (r[0] ?? "").trim() !== "");
 }
 
-/** Read a CSV that lives under `<project>/data/sources`. Cached per process. */
+/**
+ * The CSVs are embedded as text at build time by `scripts/generate-data.mjs`,
+ * so nothing is read from disk at runtime. Parsing is memoised per process.
+ */
+const TABLE_BY_FILE: Record<string, string> = {
+  "schools-master.csv": SOURCES.master,
+  "schools-enrolment.csv": SOURCES.enrolment,
+  "schools-contacts.csv": SOURCES.contacts,
+};
+
 export function readSourceCsv(fileName: string): string[][] {
   const cached = rawCache.get(fileName);
   if (cached) return cached;
 
-  const file = path.join(process.cwd(), "data", "sources", fileName);
-  const text = readFileSync(file, "utf8").replace(/^\uFEFF/, "");
+  const text = TABLE_BY_FILE[fileName];
+  if (typeof text !== "string") {
+    throw new Error(
+      `Unknown source table "${fileName}". Run \`node scripts/generate-data.mjs\` to regenerate src/generated/sources.json.`,
+    );
+  }
+
   const rows = parseCsv(text);
   rawCache.set(fileName, rows);
   return rows;
