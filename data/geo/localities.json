@@ -1,0 +1,700 @@
+{
+ "AAGAKHAN PALACE": {
+  "lat": 18.5523293,
+  "lon": 73.9014785,
+  "display": "Aga Khan Palace, Nagar Road, Kalyani Nagar, Pune City Subdistrict, Pune, Maharashtra, 411011, India",
+  "type": "castle",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 4,
+  "query": "Aga Khan Palace Pune, Pune, Maharashtra, India"
+ },
+ "AAMBEGAON PATHAR": {
+  "lat": 18.4539864,
+  "lon": 73.8409138,
+  "display": "Healing Hands Clinic - Katraj, Pune, Healing Hands Clinic Ground Floor, Atmosphere Building, Ambegaon Pathar, Ambegaon Budruk, Katraj - Dehu Road Bypass, Katraj, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411046, India",
+  "type": "hospital",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Ambegaon Pathar Pune, Pune, Maharashtra, India"
+ },
+ "ANANDNAGAR HINGNE KD": {
+  "lat": 18.47967,
+  "lon": 73.825099,
+  "display": "Hingne Khurd, Manik Baug, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "locality",
+  "placeRank": 25,
+  "score": 0.5,
+  "hits": 1,
+  "query": "Hingne Khurd, Pune, Maharashtra",
+  "approximate": true
+ },
+ "AUNDH GAON": {
+  "lat": 18.5667508,
+  "lon": 73.8121526,
+  "display": "Aundh Gaon, University Road, Aundh, Pune, Pune City Subdistrict, Pune, Maharashtra, 411027, India",
+  "type": "bus_stop",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "AUNDH GAON, Pune, Maharashtra, India"
+ },
+ "BALAJINAGAR": {
+  "lat": null,
+  "lon": null
+ },
+ "BANER BALEWADI": {
+  "lat": 18.5726014,
+  "lon": 73.7810679,
+  "display": "Union Bank of India, Balewadi Gaon Road, Chakankar Mala, Baner, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "atm",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "BANER BALEWADI, Pune, Maharashtra, India"
+ },
+ "BHARATI VIDYAPEETH": {
+  "lat": 18.5135693,
+  "lon": 73.8198495,
+  "display": "Bharati Vidyapeeth, Admiral Somnath Path, Kothrud, Erandwane, Pune, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "university",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Bharati Vidyapeeth Pune, Pune, Maharashtra, India"
+ },
+ "BOPODI": {
+  "lat": 18.5696611,
+  "lon": 73.8381029,
+  "display": "Bopodi, Old Pune–Mumbai Highway, Khadki, Pune City Subdistrict, Pune, Maharashtra, 411020, India",
+  "type": "station",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 1,
+  "query": "BOPODI, Pune, Maharashtra, India"
+ },
+ "CITY POST GADIKHANA": {
+  "lat": null,
+  "lon": null
+ },
+ "D. MANGESHKAR HOSPITAL": {
+  "lat": 18.5018536,
+  "lon": 73.8327978,
+  "display": "Deenanath Mangeshkar Hospital, Maai Mangeshkar Path, Erandwane, Pune, Pune City Subdistrict, Pune, Maharashtra, 411004, India",
+  "type": "hospital",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Deenanath Mangeshkar Hospital, Pune, Maharashtra, India"
+ },
+ "DAHANUKAR COLONY": {
+  "lat": 18.4956558,
+  "lon": 73.8102918,
+  "display": "Dahanukar Colony (Ram Mandir), Gandhibhavan Road, Kothrud, Karve Nagar, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "platform",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "DAHANUKAR COLONY, Pune, Maharashtra, India"
+ },
+ "DATTAWADI": {
+  "lat": 18.5006978,
+  "lon": 73.8430106,
+  "display": "Dattawadi, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 1.0,
+  "hits": 1,
+  "query": "DATTAWADI, Pune, Maharashtra, India"
+ },
+ "DECCAN COLLEGE": {
+  "lat": 18.548889,
+  "lon": 73.8748641,
+  "display": "Deccan College, Deccan College Road, Yerawada, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "college",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "DECCAN COLLEGE, Pune, Maharashtra, India"
+ },
+ "DECCAN GYMKHANA": {
+  "lat": 18.5158926,
+  "lon": 73.84116,
+  "display": "Deccan Gymkhana, Pune, Pune City Subdistrict, Pune, Maharashtra, 411004, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 1.0,
+  "hits": 2,
+  "query": "DECCAN GYMKHANA, Pune, Maharashtra, India"
+ },
+ "DHANORI": {
+  "lat": 18.5906707,
+  "lon": 73.8913189,
+  "display": "Dhanori, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 1.0,
+  "hits": 1,
+  "query": "DHANORI, Pune, Maharashtra, India"
+ },
+ "DOKE TALIM RAMOSHI GATE": {
+  "lat": 18.509766,
+  "lon": 73.868343,
+  "display": "Ramoshigate",
+  "type": "overpass",
+  "placeRank": 0,
+  "score": 0.95,
+  "hits": 1,
+  "query": "overpass:AADARSH|BALAJIN|BHUM",
+  "approximate": true
+ },
+ "GEN. A. VAIDYA STEDIUM": {
+  "lat": null,
+  "lon": null
+ },
+ "GOKHALE NAGAR": {
+  "lat": 18.540599,
+  "lon": 73.8336297,
+  "display": "House, Gokhale Nagar, Model Colony, Pune, Pune City Subdistrict, Pune, Maharashtra, 411007, India",
+  "type": "residential",
+  "placeRank": 24,
+  "score": 1.0,
+  "hits": 2,
+  "query": "GOKHALE NAGAR, Pune, Maharashtra, India"
+ },
+ "GOKHLE HALL MANDAI": {
+  "lat": 18.5138179,
+  "lon": 73.8491347,
+  "display": "Gokhale Hall, 570, Laxmi Path, Sadashiv Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411030, India",
+  "type": "public",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Gokhale Hall Pune, Pune, Maharashtra, India"
+ },
+ "HADPASAR GAVTHAN": {
+  "lat": 18.500774,
+  "lon": 73.937915,
+  "display": "Hadapsar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "locality",
+  "placeRank": 25,
+  "score": 0.5,
+  "hits": 1,
+  "query": "Hadapsar, Pune, Maharashtra",
+  "approximate": true
+ },
+ "HARKA NAGAR RAJEWADI": {
+  "lat": null,
+  "lon": null
+ },
+ "HINGNE S. S. SANSTHA": {
+  "lat": 18.4796701,
+  "lon": 73.8250995,
+  "display": "Hingne Khurd, Manik Baug, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "locality",
+  "placeRank": 25,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Hingne Khurd Pune, Pune, Maharashtra, India"
+ },
+ "JANTA VASAHAT": {
+  "lat": 18.4994383,
+  "lon": 73.8460393,
+  "display": "Market, Parvti, Sinhgad Rd, near Janta Vasahat, Janata Vasahat Road, Dattawadi, Pune, Pune City Subdistrict, Pune, Maharashtra, 411009, India",
+  "type": "marketplace",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Janta Vasahat Pune, Pune, Maharashtra, India"
+ },
+ "JUNA BAZAR": {
+  "lat": 18.509001,
+  "lon": 73.872223,
+  "display": "Juna Motor Stand, Ganesh Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "tertiary",
+  "placeRank": 26,
+  "score": 0.6,
+  "hits": 1,
+  "query": "JUNA, Pune",
+  "approximate": true
+ },
+ "K K MARKET": {
+  "lat": 18.4694397,
+  "lon": 73.8601477,
+  "display": "KK Market, KK Market road, Mahesh Society, Katraj, Pune, Pune City Subdistrict, Pune, Maharashtra, 411046, India",
+  "type": "supermarket",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "KK Market Pune, Pune, Maharashtra, India"
+ },
+ "K.E.M. HOSPITAL": {
+  "lat": 18.520149,
+  "lon": 73.867025,
+  "display": "KEM Hospital, Jawaharlal Nehru Marg, Somwar Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411011, India",
+  "type": "hospital",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 1,
+  "query": "KEM Hospital, Pune, Maharashtra",
+  "approximate": false
+ },
+ "KALEPADAL MOHAMMADWADI": {
+  "lat": 18.473274,
+  "lon": 73.92376,
+  "display": "Mohammadwadi Road, Krushna Nagar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "secondary",
+  "placeRank": 26,
+  "score": 0.6,
+  "hits": 1,
+  "query": "MOHAMMADWADI, Pune",
+  "approximate": true
+ },
+ "KAMAL NAYAN BAJAJ": {
+  "lat": 18.5472867,
+  "lon": 73.8523813,
+  "display": "KOHINOOR ESTATE GRUHARACHANA SOCIETY  \"E\" WING, NEAR KAMAL NAYAN BAJAJ GARDEN ,MULA ROAD SHIVAJINAGAR, Old Pune–Mumbai Highway, Mandalay Lines, Pune, Pune City Subdistrict, Pune, Maharashtra, 411003, India",
+  "type": "yes",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "KAMAL NAYAN BAJAJ, Pune, Maharashtra, India"
+ },
+ "KASBA GANPATI": {
+  "lat": 18.5190304,
+  "lon": 73.8572406,
+  "display": "Kasba Ganpati, Ram Ganesh Gadkari Path, Kasba Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "place_of_worship",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "KASBA GANPATI, Pune, Maharashtra, India"
+ },
+ "KATRAJ": {
+  "lat": 18.4536792,
+  "lon": 73.8563196,
+  "display": "Katraj, Pune, Pune City Subdistrict, Pune, Maharashtra, 411046, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 1.0,
+  "hits": 1,
+  "query": "KATRAJ, Pune, Maharashtra, India"
+ },
+ "KELEWADI MIT": {
+  "lat": 18.5118043,
+  "lon": 73.8226477,
+  "display": "Kelewadi, Erandwane, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "residential",
+  "placeRank": 24,
+  "score": 1.0,
+  "hits": 2,
+  "query": "Kelewadi Pune, Pune, Maharashtra, India"
+ },
+ "KHARADI": {
+  "lat": 18.5512763,
+  "lon": 73.9416575,
+  "display": "Kharadi, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 1.0,
+  "hits": 1,
+  "query": "KHARADI, Pune, Maharashtra, India"
+ },
+ "KONDHAWA BK": {
+  "lat": 18.4706223,
+  "lon": 73.8892387,
+  "display": "State Bank of India, SBI, Kondhwa Main Road, Wanawadi, Kondhwa Budruk, Pune City Subdistrict, Pune, Maharashtra, 411048, India",
+  "type": "bank",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Kondhwa Budruk Pune, Pune, Maharashtra, India"
+ },
+ "KOREGAON PARK": {
+  "lat": 18.5377173,
+  "lon": 73.8929915,
+  "display": "Koregaon Park, Ghorpuri, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "locality",
+  "placeRank": 25,
+  "score": 1.0,
+  "hits": 2,
+  "query": "KOREGAON PARK, Pune, Maharashtra, India"
+ },
+ "LOHIYANAGAR": {
+  "lat": null,
+  "lon": null
+ },
+ "MAMLEDAR KACHERI": {
+  "lat": 18.5067846,
+  "lon": 73.8583983,
+  "display": "Mamledar Kacheri, Shivaji Road, Swargate, Pune, Pune City Subdistrict, Pune, Maharashtra, 411003, India",
+  "type": "government",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Mamledar Kacheri Pune, Pune, Maharashtra, India"
+ },
+ "MARKET YARD": {
+  "lat": 18.4877859,
+  "lon": 73.8575177,
+  "display": "Market Yard, Satara Road, Swargate, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "proposed",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "MARKET YARD, Pune, Maharashtra, India"
+ },
+ "MITHA NAGAR": {
+  "lat": null,
+  "lon": null
+ },
+ "MODEL COLONY": {
+  "lat": 18.5314302,
+  "lon": 73.8374513,
+  "display": "Model Colony, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 1.0,
+  "hits": 2,
+  "query": "MODEL COLONY, Pune, Maharashtra, India"
+ },
+ "MUNDHAWA MAGARPATTA": {
+  "lat": 18.5022061,
+  "lon": 73.928112,
+  "display": "Magarpatta Road Flyover, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "trunk",
+  "placeRank": 26,
+  "score": 0.667,
+  "hits": 2,
+  "query": "Mundhwa Magarpatta Pune, Pune, Maharashtra, India"
+ },
+ "NAGPUR CHAWL": {
+  "lat": 18.545317,
+  "lon": 73.886688,
+  "display": "Yerwada, Nagar Road, Yerawada, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "station",
+  "placeRank": 30,
+  "score": 0.5,
+  "hits": 1,
+  "query": "Yerwada, Pune, Maharashtra",
+  "approximate": true
+ },
+ "NARAYAN PETH NANA WADA": {
+  "lat": 18.5183964,
+  "lon": 73.8563078,
+  "display": "Nana Wada, Shivaji Road, Shaniwar Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "platform",
+  "placeRank": 30,
+  "score": 0.8,
+  "hits": 4,
+  "query": "Nana Wada Narayan Peth Pune, Pune, Maharashtra, India"
+ },
+ "NAVI KHADKI": {
+  "lat": 18.5790893,
+  "lon": 73.8766043,
+  "display": "State Bank of India, 16, Ward 3, Khadki, Pune City Subdistrict, Pune, Maharashtra, 411031, India",
+  "type": "bank",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "Khadki Pune, Pune, Maharashtra, India"
+ },
+ "PANDAVNAGAR": {
+  "lat": 18.544023,
+  "lon": 73.7826234,
+  "display": "Pandavnagar, Pashan-Sus Road, Pashan, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "bus_stop",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 1,
+  "query": "PANDAVNAGAR, Pune, Maharashtra, India"
+ },
+ "PARMHANSNAGAR VANAZ CO": {
+  "lat": 18.5071669,
+  "lon": 73.8052293,
+  "display": "Vanaz, Paud Road, Kothrud, Karve Nagar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "train_station",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Vanaz Kothrud Pune, Pune, Maharashtra, India"
+ },
+ "POPULARNAGAR WARJE": {
+  "lat": 18.4841525,
+  "lon": 73.7992263,
+  "display": "D-9 Building, D-9 Building, Popular Nagar, Popular Nagar Road, Warje, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411058, India",
+  "type": "residential",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 4,
+  "query": "Popular Nagar Warje Pune, Pune, Maharashtra, India"
+ },
+ "PRABHAT ROAD": {
+  "lat": 18.513809,
+  "lon": 73.841541,
+  "display": "Prabhat Path",
+  "type": "overpass",
+  "placeRank": 0,
+  "score": 0.9,
+  "hits": 1,
+  "query": "overpass:AADARSH|BALAJIN|BHUM",
+  "approximate": true
+ },
+ "PUNE VIDYAPEETH": {
+  "lat": 18.5528441,
+  "lon": 73.8266441,
+  "display": "Savitribai Phule Pune University, University Road, Model Colony, Pune, Pune City Subdistrict, Pune, Maharashtra, 411007, India",
+  "type": "university",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 4,
+  "query": "Savitribai Phule Pune University, Pune, Maharashtra, India"
+ },
+ "RAILWAY STATION": {
+  "lat": 18.5279785,
+  "lon": 73.8723975,
+  "display": "Pune Railway Station MSRTC Bus Stand, Sassoon Marg, Somwar Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "yes",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "RAILWAY STATION, Pune, Maharashtra, India"
+ },
+ "RAUTBAUG DHANKAWADI": {
+  "lat": 18.46542,
+  "lon": 73.850152,
+  "display": "Dhankawadi, Gulab Nagar Road, Katraj, Pune, Pune City Subdistrict, Pune, Maharashtra, 411046, India",
+  "type": "bus_stop",
+  "placeRank": 30,
+  "score": 0.5,
+  "hits": 1,
+  "query": "Dhankawadi, Pune, Maharashtra",
+  "approximate": true
+ },
+ "SADHANA VIDYALAY": {
+  "lat": 18.5061471,
+  "lon": 73.9378577,
+  "display": "Sadhana Vidyalaya, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "education",
+  "placeRank": 24,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Sadhana Vidyalaya Pune, Pune, Maharashtra, India"
+ },
+ "SAHAKAR NAGAR": {
+  "lat": 18.4900796,
+  "lon": 73.8475301,
+  "display": "Sahakar Nagar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 1.0,
+  "hits": 2,
+  "query": "SAHAKAR NAGAR, Pune, Maharashtra, India"
+ },
+ "SALISBURY PARK": {
+  "lat": null,
+  "lon": null
+ },
+ "SAMTA BHUMI": {
+  "lat": null,
+  "lon": null
+ },
+ "SARASBAUG": {
+  "lat": 18.5004949,
+  "lon": 73.8529037,
+  "display": "Sarasbaug, swargate, Swargate, Pune, Pune City Subdistrict, Pune, Maharashtra, 411009, India",
+  "type": "park",
+  "placeRank": 24,
+  "score": 1.0,
+  "hits": 1,
+  "query": "SARASBAUG, Pune, Maharashtra, India"
+ },
+ "SATAV WADI": {
+  "lat": null,
+  "lon": null
+ },
+ "SHANTINAGAR": {
+  "lat": 18.4903218,
+  "lon": 73.9007878,
+  "display": "Shantinagar Sarvajinik Mitre Mandal, Late Vitthalrao Namdeo Shivarkar Road, Wanawadi, Pune, Pune City Subdistrict, Pune, Maharashtra, 411040, India",
+  "type": "place_of_worship",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 1,
+  "query": "SHANTINAGAR, Pune, Maharashtra, India"
+ },
+ "SHINDYANCHI CHHATRI": {
+  "lat": 18.491631,
+  "lon": 73.89727,
+  "display": "Shinde Chhatri, Mahadji Shinde Path, Wanawadi, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "attraction",
+  "placeRank": 30,
+  "score": 0.6,
+  "hits": 1,
+  "query": "CHHATRI, Pune",
+  "approximate": true
+ },
+ "SHIVDARSHAN": {
+  "lat": null,
+  "lon": null
+ },
+ "SHIVTIRTHANAGAR": {
+  "lat": 18.5083856,
+  "lon": 73.8097169,
+  "display": "Shivtirth Nagar, Paud Road, Kothrud, Erandwane, Pune, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "platform",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Shivtirth Nagar Pune, Pune, Maharashtra, India"
+ },
+ "SINHAGAD INST. WADGAON": {
+  "lat": 18.467497,
+  "lon": 73.825365,
+  "display": "Vadgaon Budruk, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 0.5,
+  "hits": 1,
+  "query": "Vadgaon Budruk, Pune, Maharashtra",
+  "approximate": true
+ },
+ "SOPANBAUG KAWADE WADI": {
+  "lat": null,
+  "lon": null
+ },
+ "ST WORKSHOP": {
+  "lat": 18.500495,
+  "lon": 73.852904,
+  "display": "Sarasbaug, swargate, Swargate, Pune, Pune City Subdistrict, Pune, Maharashtra, 411009, India",
+  "type": "park",
+  "placeRank": 24,
+  "score": 0.5,
+  "hits": 1,
+  "query": "Swargate, Pune, Maharashtra",
+  "approximate": true
+ },
+ "SUTARWADI PASHAN": {
+  "lat": 18.5386289,
+  "lon": 73.7814207,
+  "display": "Sutarwadi, Pashan Lake Road, Pashan, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "bus_stop",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Sutarwadi Pashan Pune, Pune, Maharashtra, India"
+ },
+ "TADIWALA ROAD": {
+  "lat": 18.530412,
+  "lon": 73.8748798,
+  "display": "Tadiwala Road, RBM Road, Somwar Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "tertiary",
+  "placeRank": 26,
+  "score": 1.0,
+  "hits": 2,
+  "query": "TADIWALA ROAD, Pune, Maharashtra, India"
+ },
+ "TILAKROAD LOKMANYA NAG": {
+  "lat": 18.504756,
+  "lon": 73.846135,
+  "display": "Lokmanya Nagar, Navi Peth, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "residential",
+  "placeRank": 24,
+  "score": 1.0,
+  "hits": 1,
+  "query": "Lokmanya Nagar, Pune, Maharashtra",
+  "approximate": false
+ },
+ "UPPER INDIRA NAGAR": {
+  "lat": 18.468748,
+  "lon": 73.863931,
+  "display": "Indira Nagar Bus Stop, Swami Vivekanand Marg, Mahesh Society, Katraj, Pune, Pune City Subdistrict, Pune, Maharashtra, 411046, India",
+  "type": "bus_stop",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 1,
+  "query": "Indira Nagar, Pune, Maharashtra",
+  "approximate": false
+ },
+ "VEDBHAVAN": {
+  "lat": 18.5070546,
+  "lon": 73.7871427,
+  "display": "Ved Bhavan, Paud Road, Kothrud, Bavdhan, Pune, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "bus_stop",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 3,
+  "query": "Ved Bhavan Pune, Pune, Maharashtra, India"
+ },
+ "VIMAN NAGAR": {
+  "lat": 18.5692367,
+  "lon": 73.9076231,
+  "display": "Mystique Moods Society, Viman Nagar, Ward 6, Pune, Pune City Subdistrict, Pune, Maharashtra, 411014, India",
+  "type": "residential",
+  "placeRank": 24,
+  "score": 1.0,
+  "hits": 2,
+  "query": "VIMAN NAGAR, Pune, Maharashtra, India"
+ },
+ "VISHRANT WADI": {
+  "lat": 18.5721375,
+  "lon": 73.8788439,
+  "display": "Siddharth Dawakhana Vishrant Wadi, Sant Dyaneshwar Marg, Ward 6, Pune, Pune City Subdistrict, Pune, Maharashtra, 411006, India",
+  "type": "centre",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "VISHRANT WADI, Pune, Maharashtra, India"
+ },
+ "W. S. AADARSHNAGAR": {
+  "lat": null,
+  "lon": null
+ },
+ "W. S. SAINATHNAGAR": {
+  "lat": null,
+  "lon": null
+ },
+ "WADGAON DHAYARI": {
+  "lat": 18.4679601,
+  "lon": 73.8349169,
+  "display": "Sinhagad College Wadgaon Campus, Sinhgad Institute Road, Dhayari, Haveli Subdistrict, Pune, Maharashtra, 411046, India",
+  "type": "college",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 2,
+  "query": "WADGAON DHAYARI, Pune, Maharashtra, India"
+ },
+ "WANWADI RAMTEKADI": {
+  "lat": 18.506308,
+  "lon": 73.911628,
+  "display": "Ramtekadi, Pune-Solapur Road, Fatima Nagar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+  "type": "proposed",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 1,
+  "query": "Ramtekadi, Pune, Maharashtra",
+  "approximate": false
+ },
+ "WARJE GAVTHAN": {
+  "lat": 18.482044,
+  "lon": 73.80017,
+  "display": "Warje, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "suburb",
+  "placeRank": 19,
+  "score": 0.5,
+  "hits": 1,
+  "query": "Warje, Pune, Maharashtra",
+  "approximate": true
+ },
+ "Y. C. NATYAGRUH": {
+  "lat": 18.5026825,
+  "lon": 73.8123457,
+  "display": "Yashwantrao Chavan Natyagruha, Balbhim Mokate Path, Kothrud, Karve Nagar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411051, India",
+  "type": "theatre",
+  "placeRank": 30,
+  "score": 1.0,
+  "hits": 4,
+  "query": "Yashwantrao Chavan Natyagruha Pune, Pune, Maharashtra, India"
+ }
+}
