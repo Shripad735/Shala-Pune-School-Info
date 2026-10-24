@@ -8,10 +8,8 @@ out/
 build/
 dist/
 
-# Cloudflare / OpenNext build output
-.open-next/
-.wrangler/
-.dev.vars
+# Vercel
+.vercel/
 
 # TypeScript
 *.tsbuildinfo
@@ -28,3 +26,4 @@ tools/
 .DS_Store
 Thumbs.db
 *.log
+.vercel

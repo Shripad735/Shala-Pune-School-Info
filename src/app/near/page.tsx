@@ -56,7 +56,7 @@ export default async function NearPage({
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
             {origin
               ? `Ranked by straight-line distance from your location, using the centre of each recorded area. ${mappedAreas.length} of ${totals.areas} areas have a verified map position.`
-              : "Share your location once and we will rank Pune's schools by distance. Nothing is stored â€” the coordinates only live in this page's address while you browse."}
+              : "Share your location once and we will rank Pune's schools by distance. Nothing is stored — the coordinates only live in this page's address while you browse."}
           </p>
         </div>
         <div className="shrink-0">
@@ -73,7 +73,7 @@ export default async function NearPage({
                 <ol className="mt-3 space-y-3 text-[0.86rem] leading-relaxed text-ink-soft">
                   {[
                     "Your browser asks permission to share an approximate location.",
-                    "We compare it with the mapped centre of each Pune area â€” no tracking, no account.",
+                    "We compare it with the mapped centre of each Pune area — no tracking, no account.",
                     "You get the nearest areas and the schools inside them, with distances.",
                   ].map((line, index) => (
                     <li key={line} className="flex gap-3">
@@ -86,7 +86,7 @@ export default async function NearPage({
                 </ol>
                 <p className="mt-4 text-[0.76rem] leading-relaxed text-muted">
                   Distances are measured to the centre of an area, so treat them as a guide to
-                  which area is closest â€” not as walking directions to a gate.
+                  which area is closest — not as walking directions to a gate.
                 </p>
               </div>
               <div className="rounded-xl border border-line bg-paper-deep/50 p-5">
@@ -137,7 +137,7 @@ export default async function NearPage({
           <dl className="mt-6 grid grid-cols-2 gap-6 rounded-2xl border border-line bg-card px-6 py-5 sm:grid-cols-4">
             <Stat
               label="Nearest school"
-              value={nearSchools[0] ? `${nearSchools[0].distance.toFixed(1)} km` : "â€”"}
+              value={nearSchools[0] ? `${nearSchools[0].distance.toFixed(1)} km` : "—"}
               hint={nearSchools[0]?.school.areaLabel}
             />
             <Stat
@@ -201,7 +201,7 @@ export default async function NearPage({
               <LocateIcon className="mt-0.5 size-4 shrink-0 text-teal" />
               <p className="text-[0.78rem] leading-relaxed text-ink-soft">
                 Positions come from OpenStreetMap matching for each area name. A few areas
-                have no reliable match, so their schools are not ranked here â€”{" "}
+                have no reliable match, so their schools are not ranked here —{" "}
                 <Link href="/areas" className="link-underline">
                   browse them by name
                 </Link>{" "}

@@ -15,9 +15,6 @@
     "build": "next build",
     "start": "next start",
     "data": "node scripts/generate-data.mjs",
-    "cf:build": "opennextjs-cloudflare build",
-    "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
@@ -25,19 +22,17 @@
     "node": ">=20.9.0"
   },
   "dependencies": {
-    "next": "15.5.4",
+    "next": "15.5.28",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "styled-jsx": "5.1.6"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "^1.20.13",
     "@tailwindcss/postcss": "4.1.13",
     "@types/node": "22.10.2",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.0",
     "tailwindcss": "4.1.13",
-    "typescript": "5.7.3",
-    "wrangler": "^4.152.0"
+    "typescript": "5.7.3"
   }
 }
