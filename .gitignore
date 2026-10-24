@@ -1,14 +1,25 @@
+# Dependencies
 node_modules/
+.pnpm-store/
+
+# Next.js build output
 .next/
 out/
 build/
 dist/
 
+# TypeScript
 *.tsbuildinfo
-next-env.d.ts.bak
 
+# Environment
 .env
 .env*.local
 
+# Local-only notes and build-time tooling (not published)
+README.internal.md
+tools/
+
+# OS / editor noise
 .DS_Store
+Thumbs.db
 *.log
