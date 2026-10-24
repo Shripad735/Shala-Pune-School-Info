@@ -7,8 +7,6 @@ import { getDirectory } from "@/lib/data";
 import { formatNumber, ptrLabel } from "@/lib/format";
 import type { School } from "@/lib/types";
 
-export const runtime = "edge";
-
 export const metadata: Metadata = {
   title: "Compare schools",
   description: "Put two or three Pune schools side by side — enrolment, staffing, facilities and fees-free facts.",

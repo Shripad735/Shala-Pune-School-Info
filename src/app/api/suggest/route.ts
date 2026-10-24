@@ -16,8 +16,6 @@ function areas() {
   return areaIndex;
 }
 
-export const runtime = "edge";
-
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const q = (searchParams.get("q") ?? "").trim();

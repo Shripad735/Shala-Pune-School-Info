@@ -7,8 +7,6 @@ import { EmptyState } from "@/components/ui";
 import { filterSchools, getDirectory, type SchoolFilters } from "@/lib/data";
 import { formatNumber } from "@/lib/format";
 
-export const runtime = "edge";
-
 export const metadata: Metadata = {
   title: "Explore schools",
   description: "Filter Pune schools by area, zone, stage, medium, management and facilities.",

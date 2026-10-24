@@ -7,8 +7,6 @@ import { SectionHeading, Stat } from "@/components/ui";
 import { getDirectory, nearbyAreas, nearbySchools } from "@/lib/data";
 import { distanceKm, formatNumber } from "@/lib/format";
 
-export const runtime = "edge";
-
 export const metadata: Metadata = {
   title: "Schools near me",
   description:

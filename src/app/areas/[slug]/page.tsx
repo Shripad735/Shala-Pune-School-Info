@@ -7,8 +7,6 @@ import { Stat } from "@/components/ui";
 import { getDirectory, nearbyAreas, schoolsInArea } from "@/lib/data";
 import { distanceKm, formatNumber } from "@/lib/format";
 
-export const runtime = "edge";
-
 export async function generateMetadata({
   params,
 }: {

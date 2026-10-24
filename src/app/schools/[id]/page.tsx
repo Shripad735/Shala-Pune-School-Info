@@ -25,8 +25,6 @@ import { getSchool, relatedSchools } from "@/lib/data";
 import { formatNumber, ptrLabel, ptrTone } from "@/lib/format";
 import { SchoolCard } from "@/components/school-card";
 
-export const runtime = "edge";
-
 export async function generateMetadata({
   params,
 }: {
